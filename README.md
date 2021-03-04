@@ -42,7 +42,7 @@ We can use simple and multiple linear regression analysis to model the relations
 
 #### What were the net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity for General Dynamics Corporation from 2006-2020?
 
-![](.gitbook/assets/university-tier-counts.png)
+![fin_ratios](https://user-images.githubusercontent.com/78438582/110003452-655e5200-7ce4-11eb-934a-51c565b16614.png)
 
 Here we can see that two-year public and private higher education institutions make up most of the volume of colleges in the US, followed by "selective private" and "selective public" schools. As we might expect, there are very few "Ivy Plus" schools \(highly selective and highly ranked\), "other elite" schools \(including Johns Hopkins\), and "highly selective" public and private schools \(perhaps less than one per state\). This gives us an idea of the type of quantitative impact that education or admissions reform might have based on what type of institutions the reform focuses on.
 
@@ -56,7 +56,7 @@ Here we see almost an opposite type of distribution--the highly selective privat
 
 ![](.gitbook/assets/parent_income_dist_by_tier.png)
 
-We can also look at the average income distribution at the different higher education tiers where Q1 indicates families in the lowest income quintile and Q5 indicates families in the highest income quintile. We can see that the income distribution starts to even out when we look at nonselective four-year colleges and that elite and other highly selective institutions are predominantly filled with students from the highest income quintile.![fin_ratios](https://user-images.githubusercontent.com/78438582/110003452-655e5200-7ce4-11eb-934a-51c565b16614.png)
+We can also look at the average income distribution at the different higher education tiers where Q1 indicates families in the lowest income quintile and Q5 indicates families in the highest income quintile. We can see that the income distribution starts to even out when we look at nonselective four-year colleges and that elite and other highly selective institutions are predominantly filled with students from the highest income quintile.
 
 
 ## Business Answer
