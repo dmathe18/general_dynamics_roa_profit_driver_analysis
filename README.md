@@ -32,10 +32,9 @@ We'l use open data from two sources:
 
 We’ll use Microsoft Excel to answer:
 
-* **What did the US college landscape look like in 2000 and 2013?** Exploring general college data regarding enrollment, sticker price, expenditures, and other related metrics per university "tier" or ranking
-* **How do parents’ and kids’ income data relate college tier?** Exploring the relationship between income distributions of students/parents entering colleges at different types of higher education institutions
-* **How do colleges contribute to social mobility?** Exploring how students' income distribution changes when they are around the age of 35 \(likely earning a stable income instead of in between jobs or in graduate school\)
-* **Is 'percentage of Pell-eligible students' a good metric to define student income diversity? What other metrics should JHU monitor to continue to develop a more robust student body and subsequent alumni network?** Exploring specific metrics related to Pell grant recipients to see how colleges can use this percentage--or other--metric\(s\)--to measure their social mobility impact 
+* **What were the net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity for General Dynamics Corporation from 2006-2020?**
+* **What is the relationship between the above profit drivers and net income?** 
+* **What additional insights can we gain about General Dynamics' performance from changes in macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?** 
 
 ## Data Answer
 
