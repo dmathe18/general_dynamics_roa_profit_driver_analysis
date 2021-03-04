@@ -44,7 +44,12 @@ We can use simple and multiple linear regression analysis to model the relations
 
 ![fin_ratios](https://user-images.githubusercontent.com/78438582/110003452-655e5200-7ce4-11eb-934a-51c565b16614.png)
 
-Here we can see that two-year public and private higher education institutions make up most of the volume of colleges in the US, followed by "selective private" and "selective public" schools. As we might expect, there are very few "Ivy Plus" schools \(highly selective and highly ranked\), "other elite" schools \(including Johns Hopkins\), and "highly selective" public and private schools \(perhaps less than one per state\). This gives us an idea of the type of quantitative impact that education or admissions reform might have based on what type of institutions the reform focuses on.
+The values for net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity were calculated as follows:
+1. Profitability (net profit margin) = net income / net sales
+2. Efficiency (total asset turnover) = net sales / average total assets
+3. ROA = net profit margin * total asset turnover
+4. Financial leverage = average total assets / average shareholders' equity
+5. ROE = ROA * financial leverage
 
 #### Is there evidence of a linear relationship between net income and the above profit drivers? Which ratio has the greatest explanatory power?
 
