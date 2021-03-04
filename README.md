@@ -83,8 +83,19 @@ In order to provide a macro-level context for GDC's net income over the time per
 
 The graph above depicts the relationship between real government consumption expenditures and gross investment on national defense and net income. The R-squared value of .0006 suggests that the variables do not have a strong linear relationship.
 
+## Data Interpretation
 
-We can also look at the average income distribution at the different higher education tiers where Q1 indicates families in the lowest income quintile and Q5 indicates families in the highest income quintile. We can see that the income distribution starts to even out when we look at nonselective four-year colleges and that elite and other highly selective institutions are predominantly filled with students from the highest income quintile.
+The linear regression analysis above provides a useful starting point for investigating trends in General Dynamics' Corporation's growth and performance in the period from 2006-2020. The analysis indicated a strong linear relationship between financial leverage and net income, which may have important implications for General Dynamics' long-term business strategy. Interestingly, ROA had substantially less predictive value, with a R-squared value of .1946. These facts seem to indicate that increasing leverage will be essential to continued growth as measured by net income. Moreover, the macro-level analysis seemed to suggest that GDC's net income was not strongly correlated with national defense expenditures and investment, GDP, or the federal funds rate. 
 
+## Step-by-step Instructions for Excel Data Analysis
 
-## Business Answer
+1. Download GDP, national defense expenditures and spending, and the effective federal funds rate from FRED
+2. Extract revenue, total assets, and shareholders' equity data from GDC's form 10-K reports
+3. Use ratio analysis formulas to compute net profit margin, total asset turnover, ROA, leverage, and ROE
+4. Use Data Analysis ToolPak to run multiple linear regression analysis for net operating income (dependent variable) and net profit margin, total asset turnover, ROA, leverage, and ROE (independent variables)
+5. Check for multicollinearity using correlation function in Data Analysis ToolPak
+6. Remove variables with high correlation
+7. Rerun multiple linear regression analysis
+8. Perform multiple linear regression analysis for net operating income (dependent variable) and GDP, national defense consumption expenditures and investment, and the effective federal funds rate (independent variables)
+9. Create scatterplots for net income vs. ROA, net income vs. financial leverage, and net income vs. national defense consumption expenditures and investment
+
