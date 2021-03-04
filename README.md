@@ -76,7 +76,12 @@ The graph above displays the relationship between net income and ROA, while the 
 #### What additional insights can we gain about General Dynamics' performance from changes in exogenous, macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?
 
 ![exogenous_regression](https://user-images.githubusercontent.com/78438582/110006767-069ad780-7ce8-11eb-86a9-41f266dca0b3.png)
+
+In order to provide a macro-level context for GDC's net income over the time period in question, macroeconomic data from FRED were analyzed for evidence of a linear relationship between net income and GDP, national defense consumption expenditures and investment, and the effective federal funds rate. The regression output above indicated that none of the independent variables were signficant. Moreover, the Significance F value of 0.245799786 in the ANOVA section of the output was insufficient to cause rejection of the null hypothesis, further indicating that the independent variables do not have significant predictive value.
+
 ![defense](https://user-images.githubusercontent.com/78438582/110006575-d3584880-7ce7-11eb-8512-004b16b43099.png)
+
+The graph above depicts the relationship between real government consumption expenditures and gross investment on national defense and net income. The R-squared value of .0006 suggests that the variables do not have a strong linear relationship.
 
 
 We can also look at the average income distribution at the different higher education tiers where Q1 indicates families in the lowest income quintile and Q5 indicates families in the highest income quintile. We can see that the income distribution starts to even out when we look at nonselective four-year colleges and that elite and other highly selective institutions are predominantly filled with students from the highest income quintile.
