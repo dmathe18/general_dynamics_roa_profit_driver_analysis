@@ -12,7 +12,7 @@ Return on asset profit driver analysis (also called ROA decomposition or DuPont 
 
 ## Business Question
 
-_**What is the relationship between General Dynamics' net income and key financial ratios such as net profit margin, total asset turnover, return on assets, and financial leverage? **_
+_**What is the relationship between General Dynamics' net income and key financial ratios such as net profit margin, total asset turnover, return on assets, and financial leverage?**_
 
 ## Data Question - Open Data
 
