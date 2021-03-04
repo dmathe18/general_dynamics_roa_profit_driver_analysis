@@ -47,13 +47,19 @@ We can use simple and multiple linear regression analysis to model the relations
 The values for net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity were calculated as follows:
 1. Profitability (net profit margin) = net income / net sales
 2. Efficiency (total asset turnover) = net sales / average total assets
-3. ROA = net profit margin * total asset turnover
+3. ROA = net profit margin x total asset turnover
 4. Financial leverage = average total assets / average shareholders' equity
-5. ROE = ROA * financial leverage
+5. ROE = ROA x financial leverage
+
+Excel formulas were used to perform the ratio computations for the first row, and the autofill feature was used to extend the formulas to the rest of the dataset. A preliminary overview of the ratios seems to suggest that during the period from 2006-2020, General Dynamics Corporation's profitability increased steadily, its effiency trended down, its ROA alternated between gains and losses, its financial leverage registered significant gains, and its return on equity hovered around its average value of .22.
 
 #### Is there evidence of a linear relationship between net income and the above profit drivers? Which ratio has the greatest explanatory power?
 
 ![](.gitbook/assets/final-chart.png)
+
+![endogenous_regression1](https://user-images.githubusercontent.com/78438582/110005962-0f3ede00-7ce7-11eb-9c93-c53b3f12e07a.png)
+![multicollinearity](https://user-images.githubusercontent.com/78438582/110006163-5036f280-7ce7-11eb-93a1-df2e98aadfc1.png)
+
 
 Here we see almost an opposite type of distribution--the highly selective private schools have the highest sticker price, and the two-year not-for-profit institutions have the lowest sticker price. We should also note that the sticker price also does not necessarily reflect the price that students need to pay to attend the institution, however, it can give us insight into the type of students who attend those schools and who don't receive financial aid. Additionally, highly selective public schools have a significantly lower sticker price than their peer institutions, so this may indicate that students could get a better "bang for their buck" here if the student outcomes are similar to peer institutions. 
 
