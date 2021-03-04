@@ -55,17 +55,29 @@ Excel formulas were used to perform the ratio computations for the first row, an
 
 #### Is there evidence of a linear relationship between net income and the above profit drivers? Which ratio has the greatest explanatory power?
 
-![](.gitbook/assets/final-chart.png)
-
 ![endogenous_regression1](https://user-images.githubusercontent.com/78438582/110005962-0f3ede00-7ce7-11eb-9c93-c53b3f12e07a.png)
+
+Multiple regression analysis was used to estimate the dependence of net income on profitability, efficiency, ROA, financial leverage, and ROE. In the initial run, the regression output appeared to indicate that none of the independent variables were signficant since each had a p-value greater than .05. However, that none of the independent variables were significant in predicting net income seemed to defy common sense, and contradicted the computed R-squared value of 0.978566511 which indicated that the linear relationship explains 97.86% of the variation in net income.
+
 ![multicollinearity](https://user-images.githubusercontent.com/78438582/110006163-5036f280-7ce7-11eb-93a1-df2e98aadfc1.png)
 
+Taking a closer look at the independent variables, it became clear that the regression output had been distorted by multicollinearity, or the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. Multicollinearity among independent variables may result in less reliable statistical inferences, and can be measured using the correlation function in the Data Analysis ToolPak. The issue derived from the fact that several of the ratios were linked by common terms, such as net sales in the equations for both net profit margin and total asset turnover. The cells highlighted in the image above represent potential sources of distortion; to address this issue, the variables with the highest correlation were either dropped or proxied using other independent variables that contained their component parts. ROA and financial leverage, the drivers of ROE, were included in the rerun, and the resulting linear regression produced the regression output below: 
 
-Here we see almost an opposite type of distribution--the highly selective private schools have the highest sticker price, and the two-year not-for-profit institutions have the lowest sticker price. We should also note that the sticker price also does not necessarily reflect the price that students need to pay to attend the institution, however, it can give us insight into the type of students who attend those schools and who don't receive financial aid. Additionally, highly selective public schools have a significantly lower sticker price than their peer institutions, so this may indicate that students could get a better "bang for their buck" here if the student outcomes are similar to peer institutions. 
+![endogenous_rerun](https://user-images.githubusercontent.com/78438582/110006480-b7ed3d80-7ce7-11eb-9d70-6ccab1ea2c7d.png)
+
+The p-values for ROA and financial leverage indicated that both were significant, and the regression analysis yielded the following equation for net income: net income = -2829.070068 + 16835.31414(ROA) + 1403.078719(financial leverage).
+
+![roa](https://user-images.githubusercontent.com/78438582/110006508-c2a7d280-7ce7-11eb-8a76-9b978409d5fb.png)
+
+The graph above displays the relationship between net income and ROA, while the graph below depicts the relationship between net income and financial leverage. The R-squared value of .9148 for financial leverage suggests that it has strong explanatory power for net income. 
+
+![fin_leverage](https://user-images.githubusercontent.com/78438582/110006519-c89db380-7ce7-11eb-8312-30d2eef71fc4.png)
 
 #### What additional insights can we gain about General Dynamics' performance from changes in exogenous, macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?
 
-![](.gitbook/assets/parent_income_dist_by_tier.png)
+![exogenous_regression](https://user-images.githubusercontent.com/78438582/110006767-069ad780-7ce8-11eb-86a9-41f266dca0b3.png)
+![defense](https://user-images.githubusercontent.com/78438582/110006575-d3584880-7ce7-11eb-8512-004b16b43099.png)
+
 
 We can also look at the average income distribution at the different higher education tiers where Q1 indicates families in the lowest income quintile and Q5 indicates families in the highest income quintile. We can see that the income distribution starts to even out when we look at nonselective four-year colleges and that elite and other highly selective institutions are predominantly filled with students from the highest income quintile.
 
