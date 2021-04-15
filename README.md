@@ -1,5 +1,7 @@
 # general_dynamics_roa_profit_driver_analysis
-This repository contains the original excel documents, analyzed excel documents with Excel formulas and data visualizations, and a README file that summarizes findings from a ROA profit driver analysis performed for General Dynamics Corporation.
+This repository contains the original excel documents, analyzed excel documents with Excel formulas and data visualizations, and a README file that summarizes findings from a ROA profit driver analysis performed for General Dynamics Corporation. It also contains a copy of the Google Colaboratory notebook used to re-create the data exploration analysis and data visualizations using Python.
+
+
 
 # General Dynamics Corporation ROA Profit Driver Analysis
 
@@ -30,7 +32,7 @@ We'l use open data from two sources:
 
 ## Data Question - Analysis
 
-We’ll use Microsoft Excel to answer:
+We’ll use Microsoft Excel and Python to answer:
 
 * **What were the net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity for General Dynamics Corporation from 2006-2020?**
 * **Is there evidence of a linear relationship between net income and the above profit drivers? Which ratio has the greatest explanatory power?** 
