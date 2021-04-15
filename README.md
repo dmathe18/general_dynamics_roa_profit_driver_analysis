@@ -71,9 +71,14 @@ The p-values for ROA and financial leverage indicated that both were significant
 
 ![roa](https://user-images.githubusercontent.com/78438582/110006508-c2a7d280-7ce7-11eb-8a76-9b978409d5fb.png)
 
-The graph above displays the relationship between net income and ROA, while the graph below depicts the relationship between net income and financial leverage. The R-squared value of .9148 for financial leverage suggests that it has strong explanatory power for net income. 
+![Screen Shot 2021-04-15 at 1 18 19 PM](https://user-images.githubusercontent.com/78438582/114911487-12041700-9ded-11eb-8991-1e8c72040127.png)
+
+
+The graphs above display the relationship between net income and ROA, while the graphs below depict the relationship between net income and financial leverage. The R-squared value of .9148 for financial leverage suggests that it has strong explanatory power for net income. 
 
 ![fin_leverage](https://user-images.githubusercontent.com/78438582/110006519-c89db380-7ce7-11eb-8312-30d2eef71fc4.png)
+
+![Screen Shot 2021-04-15 at 1 18 46 PM](https://user-images.githubusercontent.com/78438582/114911547-1fb99c80-9ded-11eb-9735-a1c9ed06b874.png)
 
 #### What additional insights can we gain about General Dynamics' performance from changes in exogenous, macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?
 
@@ -101,3 +106,4 @@ The linear regression analysis above provides a useful starting point for invest
 8. Perform multiple linear regression analysis for net operating income (dependent variable) and GDP, national defense consumption expenditures and investment, and the effective federal funds rate (independent variables)
 9. Create scatterplots for net income vs. ROA, net income vs. financial leverage, and net income vs. national defense consumption expenditures and investment
 
+## Step-by-step Instructions for Python Data Analysis
