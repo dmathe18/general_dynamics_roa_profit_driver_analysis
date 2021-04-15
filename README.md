@@ -94,10 +94,20 @@ The graph above depicts the relationship between real government consumption exp
 
 ![Screen Shot 2021-04-15 at 1 21 09 PM](https://user-images.githubusercontent.com/78438582/114911958-732bea80-9ded-11eb-802c-3cee67c95ade.png)
 
+Finally, the plotly.express library in Python was used to create the above multi-attribute bubble scatter plot which graphs the relationship between net income, financial leverage, and national defense expenditures and investment. The size of the bubble corresponds to the relative expenditure level in the given year. This  graph allows us to view the relationship and interaction between multiple variables and confirms the weak correlation between defense expenditures and net income. The specific values attached to each data point can be seen by hovering over the data points.
 
-## Data Interpretation
+## Data Interpretation - Excel
 
 The linear regression analysis above provides a useful starting point for investigating trends in General Dynamics' Corporation's growth and performance in the period from 2006-2020. The analysis indicated a strong linear relationship between financial leverage and net income, which may have important implications for General Dynamics' long-term business strategy. Interestingly, ROA had substantially less predictive value, with a R-squared value of .1946. These facts seem to indicate that increasing leverage will be essential to continued growth as measured by net income. Moreover, the macro-level analysis seemed to suggest that GDC's net income was not strongly correlated with national defense expenditures and investment, GDP, or the federal funds rate. 
+
+## Data Interpretation - Python
+
+I found that the results of my analysis did not change after recreating the data exploration analysis and data visualizations using Python. Python contributed to this analysis in a number of ways. First, the plotly library equipped me with an incredibly useful tool for producing clean, professional, and dynamic graphs. Plotly's dynamic features allow users to engage with the data at a deeper level by revealing the exact values associated with particular observations. Second, the software architecture I created in Python has provided me with a effective tool to repeat the above analysis at scale. Python enjoys a clear advantage in the analysis of large data sets, and rerunning the same analyses to create new visualizations with much larger data files would require a minimal time investment since the underlying mathematical operations performed on the data would not be changing.
+
+As a higher level program, Excel is more user-friendly than Python in that instructing the software to perform a particular task would require a sequence of commands that are easier to interpret or compile, and developing the code to perform it would probably take longer using Python than Excel. A major drawback to using Excel, however, is its low memory efficiency which, as suggested above, would require longer run times to perform the same tasks with larger data sets.
+
+Based on these findings, General Dynamics should carefully weigh the relative benefits of increasing financial leverage against the risks of taking on more debt. The company should compare its financial ratios to those of other companies in the same industry, review its cost structure, and conduct additional analyses (such as cost-volume-profit analysis) to assess its bandwith for incurring higher levels of debt in order to magnify its gains.
+
 
 ## Step-by-step Instructions for Excel Data Analysis
 
@@ -112,3 +122,9 @@ The linear regression analysis above provides a useful starting point for invest
 9. Create scatterplots for net income vs. ROA, net income vs. financial leverage, and net income vs. national defense consumption expenditures and investment
 
 ## Step-by-step Instructions for Python Data Analysis
+1. Import pandas, plotly.express, and io libraries from Python, as well as files from google.colab
+2. Upload local file to Google Colaboratory notebook using files.upload() and save to variable "uploaded"
+3. Read in data and create dataframe using pd.read_excel function
+4. Preview first 5 rows of data using df.head
+5. Use plotly to create scatter plots of the relationships between net income and ROA, net income and financial leverage, and net income and national defense spending and expenditures
+6. Use plotly to create multi-attribute bubble scatter plot to visualize the interactions between net income, financial leverage and national defense spending and expenditures
