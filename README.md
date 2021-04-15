@@ -34,9 +34,9 @@ We'l use open data from two sources:
 
 We’ll use Microsoft Excel and Python to answer:
 
-* **What were the net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity for General Dynamics Corporation from 2006-2020?**
-* **Is there evidence of a linear relationship between net income and the above profit drivers? Which ratio has the greatest explanatory power?** 
-* **What additional insights can we gain about General Dynamics' performance from changes in exogenous, macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?** 
+* **What were the net profit margin, total asset turnover, return on assets, financial leverage ratio, and return on equity for [General Dynamics Corporation](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-answer) from 2006-2020?**
+* **Is there evidence of a [linear relationship](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-answer) between net income and the above profit drivers? Which ratio has the greatest explanatory power?** 
+* **What [additional insights](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-answer) can we gain about General Dynamics' performance from changes in exogenous, macro-level conditions such as the federal funds rate, GDP, and national defense consumption expenditures and investment?** 
 
 ## Data Answer
 
