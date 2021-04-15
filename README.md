@@ -88,7 +88,12 @@ In order to provide a macro-level context for GDC's net income over the time per
 
 ![defense](https://user-images.githubusercontent.com/78438582/110006575-d3584880-7ce7-11eb-8512-004b16b43099.png)
 
+![Screen Shot 2021-04-15 at 1 20 09 PM](https://user-images.githubusercontent.com/78438582/114911760-4f68a480-9ded-11eb-9e58-a355d4c23cac.png)
+
 The graph above depicts the relationship between real government consumption expenditures and gross investment on national defense and net income. The R-squared value of .0006 suggests that the variables do not have a strong linear relationship.
+
+![Screen Shot 2021-04-15 at 1 21 09 PM](https://user-images.githubusercontent.com/78438582/114911958-732bea80-9ded-11eb-802c-3cee67c95ade.png)
+
 
 ## Data Interpretation
 
