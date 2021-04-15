@@ -69,14 +69,14 @@ Taking a closer look at the independent variables, it became clear that the regr
 
 The p-values for ROA and financial leverage indicated that both were significant, and the regression analysis yielded the following equation for net income: net income = -2829.070068 + 16835.31414(ROA) + 1403.078719(financial leverage).
 
-![roa](https://user-images.githubusercontent.com/78438582/110006508-c2a7d280-7ce7-11eb-8a76-9b978409d5fb.png)
+![roa](https://user-images.githubusercontent.com/78438582/114924527-171c9280-9dfc-11eb-9511-c13cd3c5290d.png)
 
 ![Screen Shot 2021-04-15 at 1 18 19 PM](https://user-images.githubusercontent.com/78438582/114911487-12041700-9ded-11eb-8991-1e8c72040127.png)
 
 
 The graphs above display the relationship between net income and ROA, while the graphs below depict the relationship between net income and financial leverage. The R-squared value of .9148 for financial leverage suggests that it has strong explanatory power for net income. 
 
-![fin_leverage](https://user-images.githubusercontent.com/78438582/110006519-c89db380-7ce7-11eb-8312-30d2eef71fc4.png)
+![financial_leverage](https://user-images.githubusercontent.com/78438582/114924548-1b48b000-9dfc-11eb-8484-78d8b1a7f57e.png)
 
 ![Screen Shot 2021-04-15 at 1 18 46 PM](https://user-images.githubusercontent.com/78438582/114911547-1fb99c80-9ded-11eb-9735-a1c9ed06b874.png)
 
@@ -86,7 +86,7 @@ The graphs above display the relationship between net income and ROA, while the 
 
 In order to provide a macro-level context for GDC's net income over the time period in question, macroeconomic data from FRED were analyzed for evidence of a linear relationship between net income and GDP, national defense consumption expenditures and investment, and the effective federal funds rate. The regression output above indicated that none of the independent variables were signficant. Moreover, the Significance F value of 0.245799786 in the ANOVA section of the output was insufficient to cause rejection of the null hypothesis, further indicating that the independent variables do not have significant predictive value.
 
-![defense](https://user-images.githubusercontent.com/78438582/110006575-d3584880-7ce7-11eb-8512-004b16b43099.png)
+![natl_defense](https://user-images.githubusercontent.com/78438582/114924660-3c110580-9dfc-11eb-9fae-af6006526075.png)
 
 ![Screen Shot 2021-04-15 at 1 20 09 PM](https://user-images.githubusercontent.com/78438582/114911760-4f68a480-9ded-11eb-9e58-a355d4c23cac.png)
 
