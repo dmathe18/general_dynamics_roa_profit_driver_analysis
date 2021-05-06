@@ -1,9 +1,18 @@
 # general_dynamics_roa_profit_driver_analysis
 This repository contains the original excel documents, analyzed excel documents with Excel formulas and data visualizations, and a README file that summarizes findings from a ROA profit driver analysis performed for General Dynamics Corporation. It also contains a copy of the Google Colaboratory notebook used to re-create the data exploration analysis and data visualizations using Python.
 
-
-
 # General Dynamics Corporation ROA Profit Driver Analysis
+
+# Table of Contents
+1. [Background]
+2. [Business Question]
+3. [Data Question - Open Data]
+4. [Data Question - Analysis]
+5. [Data Answer]
+6. [Data Interpretation - Excel]
+7. [Data Interpretation - Python]
+8. [Step-by-step Instructions for Excel Data Analysis]
+9. [Step-by-step Instructions for Python Data Analysis]
 
 ## Background
 [General Dynamics](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi2nMG--ZbvAhX9FVkFHRepA7EQFjAAegQIARAE&url=https%3A%2F%2Fwww.gd.com%2F&usg=AOvVaw3vakUBl6fNkvrTiR11h_hT) is a global aerospace and defense company that offers a broad portfolio of innovative products and services in business aviation, combat vehicles, weapons systems, and munitions. With a market capitalization of $46.81B and gross revenues of nearly $38B in 2020, the company is the fifth-largest defense contractor in the U.S., and the sixth-largest in the world, by sales. 
