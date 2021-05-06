@@ -4,15 +4,15 @@ This repository contains the original excel documents, analyzed excel documents 
 # General Dynamics Corporation ROA Profit Driver Analysis
 
 # Table of Contents
-1. [Background]
-2. [Business Question]
-3. [Data Question - Open Data]
-4. [Data Question - Analysis]
-5. [Data Answer]
-6. [Data Interpretation - Excel]
-7. [Data Interpretation - Python]
-8. [Step-by-step Instructions for Excel Data Analysis]
-9. [Step-by-step Instructions for Python Data Analysis]
+1. [Background](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#background)
+2. [Business Question](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#business-question)
+3. [Data Question - Open Data](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-question---open-data)
+4. [Data Question - Analysis](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-question---analysis)
+5. [Data Answer](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-answer)
+6. [Data Interpretation - Excel](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-interpretation---excel)
+7. [Data Interpretation - Python](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#data-interpretation---python)
+8. [Step-by-step Instructions for Excel Data Analysis](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#step-by-step-instructions-for-excel-data-analysis)
+9. [Step-by-step Instructions for Python Data Analysis](https://github.com/dmathe18/general_dynamics_roa_profit_driver_analysis/blob/main/README.md#step-by-step-instructions-for-python-data-analysis)
 
 ## Background
 [General Dynamics](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi2nMG--ZbvAhX9FVkFHRepA7EQFjAAegQIARAE&url=https%3A%2F%2Fwww.gd.com%2F&usg=AOvVaw3vakUBl6fNkvrTiR11h_hT) is a global aerospace and defense company that offers a broad portfolio of innovative products and services in business aviation, combat vehicles, weapons systems, and munitions. With a market capitalization of $46.81B and gross revenues of nearly $38B in 2020, the company is the fifth-largest defense contractor in the U.S., and the sixth-largest in the world, by sales. 
